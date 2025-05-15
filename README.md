@@ -11,3 +11,6 @@
 
 2. The url of: `amqp://guest:guest@localhost:5672` is the same as in the subscriber program, what does it mean?  
    URL tersebut menunjukkan bahwa program publisher dan subscriber menggunakan message broker yang sama, yaitu RabbitMQ yang berjalan di `localhost` (komputer lokal) pada port `5672`. Kredensial `guest:guest` adalah username dan password default untuk mengakses RabbitMQ. Dengan menggunakan URL yang sama, publisher dan subscriber dapat berkomunikasi melalui message broker yang sama.
+
+### Reflection 2 (Running RabbitMQ)
+![Screenshot of running RabbitMQ on local machine](RabbitMQ.png)
