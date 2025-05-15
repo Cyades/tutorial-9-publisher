@@ -21,3 +21,12 @@
 ### Reflection 4 (RabbitMQ chart)
 ![Screenshot of spikes in RabbitMQ dashboard chart](Spike.png)
 - Gambar menunjukkan bahwa adanya lonjakkan setiap kali RabbitMQ menerima pesan baru. Spike yang terjadi berasal dari setiap kali publisher mengirim pesan baru ke broker RabbitMQ, Semakin banyak message yang dikirim dalam suatu waktu atau interval per pesannya maka akan semakin tajam dan banyak pula spike nya.
+
+
+## Modul 9 Bonus
+### Reflection 5 (Running RabbitMQ - Cloud)
+![Running RabbitMQ on cloud](RabbitMQ_Cloud.png)
+
+### Reflection 6 (Sending and processing events - Cloud)
+![Sending and processing events - Cloud](SendingProcessingEvent_Cloud.png)
+- Sama seperti yang sebelumnya akan tetapi ada perbedaan pada instance yang digunakan yakni menggunakan *cloud* dan bukan *localhost*.
