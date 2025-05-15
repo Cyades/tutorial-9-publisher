@@ -17,3 +17,7 @@
 
 ### Reflection 3 (Sending and processing events)
 ![Screenshot of sending events with publisher and consuming events with subscriber](SendingProcessingEvent.png)
+
+### Reflection 4 (RabbitMQ chart)
+![Screenshot of spikes in RabbitMQ dashboard chart](Spike.png)
+- Gambar menunjukkan bahwa adanya lonjakkan setiap kali RabbitMQ menerima pesan baru. Spike yang terjadi berasal dari setiap kali publisher mengirim pesan baru ke broker RabbitMQ, Semakin banyak message yang dikirim dalam suatu waktu atau interval per pesannya maka akan semakin tajam dan banyak pula spike nya.
