@@ -30,3 +30,7 @@
 ### Reflection 6 (Sending and processing events - Cloud)
 ![Sending and processing events - Cloud](SendingProcessingEvent_Cloud.png)
 - Sama seperti yang sebelumnya akan tetapi ada perbedaan pada instance yang digunakan yakni menggunakan *cloud* dan bukan *localhost*.
+
+### Reflection 7 (RabbitMQ chart - Cloud)
+![Spikes in graph on cloud](Spike_Cloud.png)
+- Sama seperti yang sebelumnya akan tetapi ada perbedaan pada instance yang digunakan yakni menggunakan *cloud* dan bukan *localhost*.
